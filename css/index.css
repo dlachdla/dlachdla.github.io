@@ -1,8 +1,122 @@
-body{
+
+h1{
+    position: relative;
     text-align: center;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+h1 a{
+    color: #fff;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+#back{
+    background-color: rgba(37, 30, 24, 0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+#menu{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+#menu li a{
+    color: rgb(80, 29, 29);
+    padding: 0 20px; /* list 사이공백 */
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 21px;
+}
+#menu li a:hover{
+    color: #fff;
+}
+nav {
+    position: relative;
+    z-index: 1;
+    top: -500px;
+    clear: right;
+}
+.text-table{
+    color: rgb(255, 249, 242);
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    font-size: 58px;
+    padding: 60px;
+    top: -430px;
+    font-weight: lighter;
+    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+}
+.text-table:hover{
+    font-style: italic;
+    transition-duration: .7s;
+    transform: translate(-100px,0);
+    opacity: .5;
+}
+footer p{
+    color: #fff;
+    font-weight: lighter;
+    font-size: small;
+    padding-bottom: 15px;
+}
+footer{
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    top: 150px;  
+    text-align: center;
+    background-color: rgba(94, 84, 77, 0.6);
+}
+.login {
+    padding: 25px;
+    text-align: center;
+    background: rgba(37, 30, 24, 0.2);
+    position: relative;
+    bottom: -620px;
+    width: 370px;
+    left: 450px;
+    height: 200px;
+    z-index: 999;
+}
+#login_bin{
+    margin-top: 30px;
+}
+#username{
+    margin-top: 8px;
+    margin-left: 50px;
 }
 
+#password{
+    margin-top: 8px;
+}
+label{
+    padding-right: 15px;
+}
 img{
-    width: 300px;
-    border-radius: 50%;
+    float: right;
+    margin-right: 50px;
+    z-index: 999;
+    position: relative;
+    margin-top: -100px;
+}
+
+body { 
+    margin: 0;
+}
+.login p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+#log{
+    position: relative;
+    z-index: 1000;
+    transform: translateY(-230px);
 }

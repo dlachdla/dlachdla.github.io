@@ -1,0 +1,13 @@
+#home{
+    position: relative;
+    transform: translate(50px,-50px);
+    z-index: 1;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
