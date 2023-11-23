@@ -7,8 +7,40 @@
 h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
-    font-size: 45px;
+    font-size: 55px;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 70px;
+}
+#img1{
+    position: relative;
+    left: 80px;
+    bottom: -80px;
+}
+#img2{
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    left: 200px;
+}
+.box p{
+    font-family:'Nanum Myeongjo', serif;;
+    position: relative;
+    float: right;
+    font-size: 67px;
+    right: 320px;
+    bottom: 70px;
+    text-shadow: 2px 10px 20px rgba(116, 89, 7, 0.927);
+    font-style: italic;
+}
+#icon{
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(270px, -100px);
+    width: 700px;
+}
+#icon img{
+    width: 50px;
 }

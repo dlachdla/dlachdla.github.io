@@ -2,11 +2,11 @@
 h1{
     position: relative;
     text-align: center;
-    font-size: 55px;
+    font-size: 80px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     position: sticky;
-    top: 0px;
+    top: 35px;
     z-index: 999;
 }
 h1 a{
@@ -33,27 +33,27 @@ h1 a{
     padding: 0 20px; /* list 사이공백 */
     text-decoration: none;
     font-weight: lighter;
-    font-size: 21px;
+    font-size: 28px;
 }
 #menu li a:hover{
     color: #fff;
 }
-nav {
+nav{
     position: relative;
     z-index: 1;
-    top: -500px;
+    top: -570px;
     clear: right;
 }
 .text-table{
-    color: rgb(255, 249, 242);
+    color: white;
     position: relative;
     z-index: 1;
     width: 600px;
-    font-size: 58px;
-    padding: 60px;
-    top: -430px;
+    font-size: 78px;
+    padding: 120px;
+    top: -400px;
     font-weight: lighter;
-    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    font-family: 'Courier New', Courier, monospace;
 }
 .text-table:hover{
     font-style: italic;
@@ -71,23 +71,35 @@ footer{
     display: block;
     position: relative;
     padding-top: 20px;
-    top: 150px;  
+    top: 155px;  
     text-align: center;
-    background-color: rgba(94, 84, 77, 0.6);
+    background-color: rgba(94, 84, 77, 0.4);
 }
 .login {
-    padding: 25px;
+    padding: 50px;
     text-align: center;
-    background: rgba(37, 30, 24, 0.2);
-    position: relative;
-    bottom: -620px;
+    background: rgba(37, 30, 24, 0.3);
+    position: absolute;
     width: 370px;
-    left: 450px;
     height: 200px;
     z-index: 999;
 }
+.wrap{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+    height: 300px;
+    bottom: -800px;
+}
 #login_bin{
     margin-top: 30px;
+}
+#login_bin:active{
+    background-color: rgb(249, 210, 158);
+}
+#login_members:active{
+    background-color: rgb(249, 210, 158); /* 클릭시 색변환 */
 }
 #username{
     margin-top: 8px;
@@ -102,10 +114,10 @@ label{
 }
 img{
     float: right;
-    margin-right: 50px;
+    margin-right: 90px;
     z-index: 999;
     position: relative;
-    margin-top: -100px;
+    margin-top: -90px;
 }
 
 body { 
