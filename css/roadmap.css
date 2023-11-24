@@ -1,0 +1,18 @@
+#home{
+    position: relative;
+    transform: translate(50px,-50px);
+    z-index: 1;
+}
+.road{
+    position: relative;
+    background-color: #000;
+    z-index: 2;
+    top: 300px;
+    height: 300px;
+}
+#road-line{
+    position: relative;
+    border-top: 20px solid rgb(255, 255, 255);
+    z-index: 2;
+    top: 145px;
+}

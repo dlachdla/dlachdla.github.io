@@ -46,12 +46,12 @@ nav{
 }
 .text-table{
     color: white;
-    position: relative;
+    position: absolute;
     z-index: 1;
     width: 600px;
     font-size: 78px;
     padding: 120px;
-    top: -400px;
+    top: 370px;
     font-weight: lighter;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -68,10 +68,9 @@ footer p{
     padding-bottom: 15px;
 }
 footer{
-    display: block;
     position: relative;
     padding-top: 20px;
-    top: 155px;  
+    bottom: -700px; 
     text-align: center;
     background-color: rgba(94, 84, 77, 0.4);
 }
@@ -114,12 +113,11 @@ label{
 }
 img{
     float: right;
-    margin-right: 90px;
+    margin-right: 120px;
     z-index: 999;
     position: relative;
     margin-top: -90px;
 }
-
 body { 
     margin: 0;
 }
