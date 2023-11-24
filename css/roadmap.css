@@ -1,3 +1,9 @@
+h1{
+    text-align: center;  
+    font-size: 55px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
 #home{
     position: relative;
     transform: translate(50px,-50px);
@@ -5,14 +11,26 @@
 }
 .road{
     position: relative;
-    background-color: #000;
+    background-color: rgba(37, 30, 24, 0.4);
     z-index: 2;
-    top: 300px;
-    height: 300px;
+    top: 290px;
+    height: 260px;
 }
 #road-line{
     position: relative;
-    border-top: 20px solid rgb(255, 255, 255);
-    z-index: 2;
-    top: 145px;
+    border-top: 14px dashed white;
+    z-index: 4;
+    top: 150px;
 }
+.road ul{
+    display: flex;
+    justify-content: center;
+}
+.road ul li{
+    padding: 0 110px; /* list 사이공백 */
+    position: relative;
+    bottom: 50px;
+    z-index: 5;
+    list-style: none;
+}
+
