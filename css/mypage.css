@@ -35,16 +35,8 @@ h1{
     left: 485px;
     top: 70px;
     box-shadow: 12px 10px 20px rgba(50, 20, 1, 1);
-    animation: fadein 3s;
+    animation: fadein 2s;
     border: 11px solid rgb(250, 246, 244);
-}
-@keyframes myfadein{ 
-    from{
-        transform: translate(0,150px);
-    }
-    to{
-        transform:  translate(0,0);
-    }
 }
 .box #main-p{
     font-family:'Nanum Myeongjo', serif;
@@ -104,6 +96,6 @@ h1:hover{
     font-style: italic;
     padding-top: 40px;
     font-size: 32px;
-    transform: translate(1050px, 200px);
+    transform: translate(1045px, 205px);
     z-index: 999999;
 }

@@ -1,3 +1,7 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
 h1{
     text-align: center;  
     font-size: 55px;
@@ -6,21 +10,22 @@ h1{
 }
 #home{
     position: relative;
-    transform: translate(50px,-50px);
+    transform: translate(50px,-80px);
     z-index: 1;
 }
 .road{
     position: relative;
-    background-color: rgba(37, 30, 24, 0.4);
+    background-color: rgba(37, 30, 24, 0.5);
     z-index: 2;
-    top: 290px;
+    top: 330px;
     height: 260px;
+    box-shadow: 12px 10px 20px rgba(50, 20, 1, 1);
 }
 #road-line{
     position: relative;
     border-top: 14px dashed white;
     z-index: 4;
-    top: 150px;
+    top: 185px;
 }
 .road ul{
     display: flex;
@@ -29,8 +34,103 @@ h1{
 .road ul li{
     padding: 0 110px; /* list 사이공백 */
     position: relative;
-    bottom: 50px;
     z-index: 5;
     list-style: none;
+    animation: bounce 1.4s infinite; /* 무한반복 */
+}
+@keyframes bounce{
+      0% {
+          transform: translateY(-230px);
+          top: 40px;
+      }
+      50% {
+          transform: translateY(-230px);
+          top: 100px;
+      }
+      100% {
+          transform: translateY(-230px);
+          top: 40px;
+      }
+}
+.main-box{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    z-index: 5;
+    bottom: 360px;
+    display: inline;   
+}
+#sub-box1{
+    float: left;
+    background-color: rgba(37, 30, 24, 0.2);
+    margin: 15px;
+    width: 290px;
+    height: 365px;
+    padding-right: 10px;
+    list-style: square;
+    box-shadow: 10px 10px 15px rgba(50, 10, 2, 0.6);
+}
+#sub-box2{
+    float: left;
+    background-color: rgba(37, 30, 24, 0.2);
+    margin: 15px;
+    width: 290px;
+    height: 365px;
+    padding-right: 10px;
+    list-style: square;
+    box-shadow: 10px 10px 15px rgba(50, 10, 2, 0.6);
+}
+#sub-box3{
+    float: left;
+    background-color: rgba(37, 30, 24, 0.2);
+    margin: 15px;
+    width: 290px;
+    height: 365px;
+    padding-right: 10px;
+    list-style: square;
+    box-shadow: 10px 10px 15px rgba(50, 10, 2, 0.6);
+}
+#sub-box4{
+    float: left;
+    background-color: rgba(37, 30, 24, 0.2);
+    margin: 15px;
+    width: 290px;
+    height: 365px;
+    padding-right: 10px;
+    list-style: square;
+    box-shadow: 10px 10px 15px rgba(50, 10, 2, 0.6);
+}
+#sub-box5{
+    float: left;
+    background-color: rgba(37, 30, 24, 0.2);
+    margin: 15px;
+    width: 290px;
+    height: 365px;
+    padding-right: 10px;
+    list-style: square;
+    box-shadow: 10px 10px 15px rgba(50, 10, 2, 0.6);
+}
+#car{
+    position: relative;
+    z-index: 6;
+    top: 140px;
+    margin-left: 25px;
+    animation: car 6s ease-in-out infinite;
+}
+@keyframes car{
+    from{
+        opacity: 0;
+        margin-left: 0%;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        margin-left: 100%;
+    }
+
 }
 
