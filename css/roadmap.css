@@ -59,7 +59,8 @@ h1{
     position: relative;
     z-index: 5;
     bottom: 345px;
-    display: inline;   
+    display: flex;
+    justify-content: center;   
 }
 #sub-box1{
     float: left;
