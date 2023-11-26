@@ -17,7 +17,7 @@ h1{
     position: relative;
     background-color: rgba(37, 30, 24, 0.5);
     z-index: 2;
-    top: 330px;
+    top: 350px;
     height: 260px;
     box-shadow: 12px 10px 20px rgba(50, 20, 1, 1);
 }
@@ -25,7 +25,7 @@ h1{
     position: relative;
     border-top: 14px dashed white;
     z-index: 4;
-    top: 185px;
+    top: 205px;
 }
 .road ul{
     display: flex;
@@ -56,13 +56,13 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     z-index: 5;
-    bottom: 360px;
+    bottom: 345px;
     display: inline;   
 }
 #sub-box1{
     float: left;
     background-color: rgba(37, 30, 24, 0.2);
-    margin: 15px;
+    margin: 10px;
     width: 290px;
     height: 365px;
     padding-right: 10px;
@@ -72,7 +72,7 @@ h1{
 #sub-box2{
     float: left;
     background-color: rgba(37, 30, 24, 0.2);
-    margin: 15px;
+    margin: 10px;
     width: 290px;
     height: 365px;
     padding-right: 10px;
@@ -82,7 +82,7 @@ h1{
 #sub-box3{
     float: left;
     background-color: rgba(37, 30, 24, 0.2);
-    margin: 15px;
+    margin: 10px;
     width: 290px;
     height: 365px;
     padding-right: 10px;
@@ -92,7 +92,7 @@ h1{
 #sub-box4{
     float: left;
     background-color: rgba(37, 30, 24, 0.2);
-    margin: 15px;
+    margin: 10px;
     width: 290px;
     height: 365px;
     padding-right: 10px;
@@ -102,7 +102,7 @@ h1{
 #sub-box5{
     float: left;
     background-color: rgba(37, 30, 24, 0.2);
-    margin: 15px;
+    margin: 10px;
     width: 290px;
     height: 365px;
     padding-right: 10px;
