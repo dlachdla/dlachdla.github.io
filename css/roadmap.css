@@ -65,7 +65,7 @@ h1{
 #sub-box1{
     float: left;
     background-color: rgba(37, 30, 24, 0.2);
-    margin: 10px;
+    margin: 10px;  
     width: 290px;
     height: 365px;
     padding-right: 10px;

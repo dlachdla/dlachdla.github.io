@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+._video{
+
+
+}
+video{
+    box-shadow: 12px 10px 20px rgba(94, 76, 64, 0.6);
+    height: 730px;
+    width: 650px;
+    object-fit: cover;
+}
+#home{
+    position: relative;
+    transform: translate(50px,-80px);
+    z-index: 1;
+}
+h1{
+    text-align: center;  
+    font-size: 55px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+#back{
+    background-color: rgba(37, 30, 24, 0.14);
+    position: absolute;
+    left: 0;
+    top: 330px;
+    right: 0;
+    bottom: 60px;
+}
+#mini-box{
+    position: relative;
+    bottom: 150px;
+    right: 80px;
+    font-size: 23px;
+    text-align: center;  
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+
+}
