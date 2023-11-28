@@ -1,5 +1,4 @@
 #home{
-    position: relative;
     transform: translate(50px,-50px);
     z-index: 1;
 }
@@ -36,8 +35,8 @@ h1{
 #my{
     position: relative;
     z-index: 5;
-    width: 220px;
-    height: 280px;
+    width: 200px;
+    height: 263px;
     left: 485px;
     top: 70px;
     box-shadow: 12px 10px 20px rgba(50, 20, 1, 1);
