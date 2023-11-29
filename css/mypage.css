@@ -1,12 +1,12 @@
+
 #home{
-    transform: translate(50px,-50px);
+    transform: translate(50px,-100px);
     z-index: 1;
 }
 .box{
+    position: relative;
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
+    padding: 0;  
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -29,11 +29,11 @@ h1{
     box-shadow: 2px 10px 20px rgba(50, 20, 1, 1);
 }
 .wrap-img{
-    position: relative;
+    position: absolute;
     bottom: 260px;
 }
 #my{
-    position: relative;
+    position: absolute;
     z-index: 5;
     width: 200px;
     height: 263px;
@@ -46,16 +46,19 @@ h1{
 .box #main-p{
     font-family:'Nanum Myeongjo', serif;
     position: relative;
-    float: right;
     font-size: 67px;
-    right: 450px;
+    left: 1100px;
     text-shadow: 2px 10px 20px rgba(116, 89, 7, 0.927);
     font-style: italic;
 }
 #sub-p{
-font-size: 40px;
-position: absolute;
-transform: translate(-150px, 250px);
+    font-size: 40px;
+    position: absolute;
+    transform: translate(1045px, -30px);
+    font-family:'Nanum Myeongjo', serif;
+    text-shadow: 2px 10px 20px rgba(71, 54, 3, 0.927);
+    font-style: italic;
+    font-size: 32px;
 }
 ul li{
     list-style: none;
@@ -64,10 +67,9 @@ ul li{
 }
 ul{
     position: relative;
-    float: right;
     width: 500px;
-    top: 500px;
-    left: 30px;
+    top: 200px;
+    left: 1045px;
     text-shadow: 2px 10px 20px rgb(73, 56, 6);
 }
 #icon{
@@ -94,13 +96,4 @@ h1:hover{
     to{
         transform:  translate(0,0);
     }
-}
-#sub-p {
-    font-family:'Nanum Myeongjo', serif;
-    text-shadow: 2px 10px 20px rgba(71, 54, 3, 0.927);
-    font-style: italic;
-    padding-top: 40px;
-    font-size: 32px;
-    transform: translate(1045px, 205px);
-    z-index: 999999;
 }

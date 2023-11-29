@@ -52,7 +52,7 @@ h1{
 }
 #sentence{
     position: relative;
-    bottom: 870px;
+    bottom: 830px;
     left: 720px;
     font-size: 21px;
     font-family: 'Courier New', Courier, monospace;
@@ -136,4 +136,9 @@ p {
     100%{
         transform: translateX(0);
     }
+}
+audio{
+    position: absolute;
+    z-index: 100;
+
 }
