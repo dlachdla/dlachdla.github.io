@@ -138,7 +138,6 @@ p {
     }
 }
 audio{
-    position: absolute;
-    z-index: 100;
-
+    float: right;
+    transform: translate(-50px,-1300px);
 }
