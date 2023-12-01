@@ -39,7 +39,7 @@ document.signupFrm.onsubmit = (e) =>{
     alert('❣회원가입에 성공하셨습니다.❣');
 
     // 가입클릭시 페이지 이동
-    window.location.href = "members.html";
+    window.location.href = "index.html";
     
 }
  // 비밀번호 일치여부

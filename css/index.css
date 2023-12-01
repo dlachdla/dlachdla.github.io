@@ -1,4 +1,3 @@
-
 h1{
     position: relative;
     text-align: center;
@@ -90,6 +89,7 @@ footer{
     z-index: 1000;
     height: 300px;
     bottom: -800px;
+    /* visibility: hidden; */
 }
 #login_bin{
     margin-top: 30px;
@@ -129,4 +129,7 @@ body {
     position: relative;
     z-index: 1000;
     transform: translateY(-230px);
+}
+#menu {
+    visibility: hidden;
 }
