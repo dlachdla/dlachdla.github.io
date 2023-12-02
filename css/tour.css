@@ -117,7 +117,6 @@ p {
     animation-delay: -17.5s;
 }
 @keyframes slider{
-   
     0%{
         transform: translateX(0);
         opacity: 1;

@@ -121,7 +121,7 @@ h1{
 @keyframes car{
     from{
         opacity: 0;
-        margin-left: 0%;
+        margin-left: 0%; /* margin-left요소의 왼쪽 여백을 설정 */
     }
     50%{
         opacity: 1;
@@ -131,7 +131,7 @@ h1{
     }
     to{
         opacity: 0;
-        margin-left: 100%;
+        margin-left: 100%; 
     }
 
 }

@@ -14,12 +14,12 @@ function checkValue(){
         const {id, password} = member;
         // console.log(id, password);
         if(id == ID && password == PassWord){
-            alert("성공");
+            alert(`❤ ${id}회원님 환영합니다 ❤`);
             hidden.style.visibility = 'hidden';
             visible.style.visibility = 'visible';
             // window.location.href = 'members.html'
         }else{
-            alert("실패");
+            alert("💦 ID와 Password를 다시 입력해주세요. 💦");
         }
     })
 };
