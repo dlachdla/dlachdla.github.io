@@ -121,14 +121,14 @@ aimation은 100% / 8 = 12.5%로, 2.5초 안에 animation의 12.5%가 실행됨 *
         transform: translateX(0);
     }
     3.5%{
-        transform: translateX(0); /* 12.5%가 되기전 9% 동안 이미지0% */
+        transform: translateX(0); 
     }
     12.5%{
-        transform: translateX(-100%); /* 오른쪽에서 */
-        animation-timing-function: step-start; /* 시작 키프레임을 기준으로 이후 정의된 각 키프레임 순에 의해 애니메이션을 끊어서 진행한다. 키프레임과 키프레임 사이의 동작을 생성하지 않는다. */
+        transform: translateX(-100%); 
+        animation-timing-function: step-start; /* 시작 키프레임을 기준으로 이후 정의된 각 키프레임 순에 의해 애니메이션을 끊어서 진행. 키프레임과 키프레임 사이의 동작을 생성하지 않는다.*/
     }
     91%{
-        transform: translateX(100%); /* 왼쪽으로 */ /* 100%가 되기전 9% 동안 이미지100% */
+        transform: translateX(100%); 
     }
     100%{
         transform: translateX(0);
