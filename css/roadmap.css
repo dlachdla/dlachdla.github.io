@@ -152,8 +152,9 @@ h1{
 nav{
     position: relative;
     z-index: 1;
+    width: 500px;
     top: -140px;
-    right: 600px;
+    left: 120px;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 2px 10px 20px rgb(73, 56, 6);
 }

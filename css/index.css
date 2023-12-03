@@ -20,21 +20,21 @@ h1 a{
     right: 0;
     bottom: 0;
 }
-#menu{
+#category{
     list-style: none; 
     display: flex;
     justify-content: center;
     z-index: 1;
     visibility: hidden;
 }
-#menu li a{
+#category li a{
     color: rgb(80, 29, 29);
     padding: 0 20px; /* list 사이공백 */
     text-decoration: none;
     font-weight: lighter;
     font-size: 28px;
 }
-#menu li a:hover{
+#category li a:hover{
     color: #fff;
 }
 nav{
