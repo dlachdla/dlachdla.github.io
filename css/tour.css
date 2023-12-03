@@ -5,13 +5,13 @@ body{
     width: 100vw;
 }
 video{
-    height: 730px;
+    height: 700px;
     width: 650px;
     object-fit: cover;
     box-shadow: 12px 10px 20px rgba(94, 76, 64, 0.6);
 }
 #home{
-    transform: translate(50px,-80px);
+    transform: translate(60px,-90px);
     z-index: 1;
 }
 h1{
@@ -27,7 +27,6 @@ h1{
     left: 0;
     top: 330px;
     right: 0;
-    bottom: 60px;
     width: 1980px;
     height: 450px;
     z-index: 5;
@@ -45,7 +44,7 @@ h1{
 #icon-air{
     position: relative;
     text-align: center;
-    bottom: 1220px;
+    bottom: 1260px;
     left: 110px;
     
 }
@@ -60,7 +59,6 @@ h1{
 }
 p {
     position: absolute;
-    top: 50px;
 }
 #a{
     margin: -50px;
@@ -71,7 +69,7 @@ p {
     width: 455px;
     height: 345px;
     left: 1400px;
-    bottom: 528px;
+    bottom: 570px;
 }
 .slide{
     position: absolute;
@@ -81,16 +79,16 @@ p {
     height: 100%;
     background-size: cover;
     background-position: center;
-
+    
     animation: slider 17.5s linear infinite; /* linear(기본값)처음속도와 마지막속도 일정 */
 }
 .slide:nth-child(1){ /* 첫화면 */
     background-image: url("/images/여행4.jpg");
-    animation-delay: 0;
+    animation-delay: 0; /* 지연시간을 0로 줘서 animation 0% 부터 실행 */
 }
 .slide:nth-child(2){ 
     background-image: url("/images/여행7.jpg");
-    animation-delay: -2.5s;
+    animation-delay: -2.5s; /* 지연시간 -2.5초로 줘서 animation 0% 에서 2.5초 실행한 뒤의 상태부터 실행 */
 }
 .slide:nth-child(3){ 
     background-image: url("/images/여행8.jpg");
@@ -116,20 +114,21 @@ p {
     background-image: url("/images/여행6.jpg");
     animation-delay: -17.5s;
 }
+/* slider animation 실행되는 시간 17.5초의 -> 1/8 이미지가 8개라서 전체 시간을 8으로 나눔
+aimation은 100% / 8 = 12.5%로, 2.5초 안에 animation의 12.5%가 실행됨 */
 @keyframes slider{
     0%{
         transform: translateX(0);
-        opacity: 1;
     }
-    5.5%{
-        transform: translateX(0);
+    3.5%{
+        transform: translateX(0); /* 12.5%가 되기전 9% 동안 이미지0% */
     }
     12.5%{
-        transform: translateX(-100%);
-        animation-timing-function: step-end;
+        transform: translateX(-100%); /* 오른쪽에서 */
+        animation-timing-function: step-start; /* 시작 키프레임을 기준으로 이후 정의된 각 키프레임 순에 의해 애니메이션을 끊어서 진행한다. 키프레임과 키프레임 사이의 동작을 생성하지 않는다. */
     }
-    93%{
-        transform: translateX(100%);
+    91%{
+        transform: translateX(100%); /* 왼쪽으로 */ /* 100%가 되기전 9% 동안 이미지100% */
     }
     100%{
         transform: translateX(0);
@@ -138,4 +137,26 @@ p {
 audio{
     float: right;
     transform: translate(-50px,-1300px);
+}
+#menu{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+}
+#menu li a{
+    color: rgb(80, 29, 29);
+    padding: 0 20px; /* list 사이공백 */
+    text-decoration: none;
+    font-size: 28px;
+}
+#menu li a:hover{
+    color: #fff;
+}
+nav{
+    position: relative;
+    z-index: 1;
+    top: -140px;
+    right: 560px;
+    text-shadow: 2px 10px 20px rgb(73, 56, 6);
+    font-family: 'Courier New', Courier, monospace;
 }
